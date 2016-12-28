@@ -2,6 +2,9 @@
 PCB combining Atmega32u4, MTK3339 GPS module, and RN2903 LoraWAN module
 This is rev 0; changes will probably need to be made once I get PCBs in and test them
 
+![Alt text](PCB.png?raw=true "PCB")
+
+
 # Pins
 Pinout follows Adafruit Feather format as I wanted to be able to add compatability of Adafruit Featherwings to this project.
 The 32u4 only has a single hardware UART, hard wired to the TX/RX of the GPS module.  These pins are broken out on the header.
