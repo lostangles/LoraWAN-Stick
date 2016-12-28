@@ -1,0 +1,201 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="http://projects.qi-hardware.com/media/idf/css/yui.css" />
+  <link rel="stylesheet" type="text/css" href="http://projects.qi-hardware.com/media/idf/css/style.css" />
+  <!--[if lt IE 7]>
+  <link rel="stylesheet" type="text/css" href="http://projects.qi-hardware.com/media/idf/css/ie6.css" />
+  <![endif]-->
+  <link rel="stylesheet" type="text/css" href="http://projects.qi-hardware.com/media/idf/css/prettify.css" />
+  <link rel="stylesheet" type="text/css" href="http://downloads.qi-hardware.com/css/style.css" />
+  <title>components/antenna.lib - KiCad Libraries Git Source Tree - Component and module collection for KiCad</title>
+</head>
+<body>
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content">
+<div id="bodyContent">
+
+<div id="doc3" class="yui-t1">
+  <div id="hd">
+<h1 class="project-title">KiCad Libraries</h1>
+    <p class="top"><a href="#title" accesskey="2"></a>
+<a href="/index.php/login/">Sign in or create your account</a>
+ | <a href="/index.php/">Project List</a>
+
+| <a href="/index.php/help/" title="Help and accessibility features">Help</a>
+    </p>
+<div id="header">
+<div id="main-tabs">
+
+  <a accesskey="1" href="/index.php/p/kicad-libs/">Project Home</a> 
+  <a href="/index.php/p/kicad-libs/downloads/">Downloads</a> 
+  <a href="/index.php/p/kicad-libs/doc/">Documentation</a> 
+ <a href="/index.php/p/kicad-libs/issues/">Issues</a>
+ <a href="/index.php/p/kicad-libs/source/tree/master/" class="active">Source</a>
+ <a href="/index.php/p/kicad-libs/review/">Code Review</a>
+
+</div>
+
+
+<div id="sub-tabs">
+<a class="active" href="/index.php/p/kicad-libs/source/tree/master/">Source Tree</a> |
+<a href="/index.php/p/kicad-libs/source/changes/master/">Change Log</a>
+ |
+<a href="/index.php/p/kicad-libs/source/help/">How To Get The Code</a>
+</div>
+
+</div>
+
+	  <h1 class="title" id="title">KiCad Libraries Git Source Tree</h1>
+
+  </div>
+  <div id="bd">
+    <div id="yui-main"> 
+      <div class="yui-b">
+	<div class="yui-g"> 
+          
+	  <div class="content">
+<h2 class="top"><a href="/index.php/p/kicad-libs/source/tree/master/">Root</a><span class="sep">/</span><span class="breadcrumb"><a href="/index.php/p/kicad-libs/source/tree/master/components">components</a><span class="sep">/</span><a href="/index.php/p/kicad-libs/source/tree/master/components/antenna.lib">antenna.lib</a></span></h2>
+
+<table class="code" summary=" ">
+
+<tbody>
+<tr class="c-line"><td class="code-lc" id="L1"><a href="#L1">1</a></td><td class="code mono">EESchema-LIBRARY Version 2.3  Date: So 07 Jun 2009 10:26:34 CDT</td></tr>
+<tr class="c-line"><td class="code-lc" id="L2"><a href="#L2">2</a></td><td class="code mono">#</td></tr>
+<tr class="c-line"><td class="code-lc" id="L3"><a href="#L3">3</a></td><td class="code mono"># ANTENNA</td></tr>
+<tr class="c-line"><td class="code-lc" id="L4"><a href="#L4">4</a></td><td class="code mono">#</td></tr>
+<tr class="c-line"><td class="code-lc" id="L5"><a href="#L5">5</a></td><td class="code mono">DEF ANTENNA ANT 0 40 Y Y 1 F N</td></tr>
+<tr class="c-line"><td class="code-lc" id="L6"><a href="#L6">6</a></td><td class="code mono">F0 &quot;ANT&quot; 0 250 60 H V C CNN</td></tr>
+<tr class="c-line"><td class="code-lc" id="L7"><a href="#L7">7</a></td><td class="code mono">F1 &quot;ANTENNA&quot; 0 -250 60 H V C CNN</td></tr>
+<tr class="c-line"><td class="code-lc" id="L8"><a href="#L8">8</a></td><td class="code mono">DRAW</td></tr>
+<tr class="c-line"><td class="code-lc" id="L9"><a href="#L9">9</a></td><td class="code mono">P 3 0 1 5  -20 -90  20 -90  20 -90 N</td></tr>
+<tr class="c-line"><td class="code-lc" id="L10"><a href="#L10">10</a></td><td class="code mono">P 5 0 1 5  -50 -60  50 -60  50 -60  50 -60  50 -60 N</td></tr>
+<tr class="c-line"><td class="code-lc" id="L11"><a href="#L11">11</a></td><td class="code mono">P 3 0 1 0  -50 90  -50 90  -50 90 N</td></tr>
+<tr class="c-line"><td class="code-lc" id="L12"><a href="#L12">12</a></td><td class="code mono">S -100 150 100 -150 0 1 0 N</td></tr>
+<tr class="c-line"><td class="code-lc" id="L13"><a href="#L13">13</a></td><td class="code mono">P 6 0 1 5  50 90  0 40  0 90  0 40  -50 90  -50 90 N</td></tr>
+<tr class="c-line"><td class="code-lc" id="L14"><a href="#L14">14</a></td><td class="code mono">P 4 0 1 5  0 -60  0 40  50 90  50 90 N</td></tr>
+<tr class="c-line"><td class="code-lc" id="L15"><a href="#L15">15</a></td><td class="code mono">P 4 0 1 5  -35 -75  35 -75  35 -75  35 -75 N</td></tr>
+<tr class="c-line"><td class="code-lc" id="L16"><a href="#L16">16</a></td><td class="code mono">X ~ 1 300 -50 200 L 50 50 1 1 P</td></tr>
+<tr class="c-line"><td class="code-lc" id="L17"><a href="#L17">17</a></td><td class="code mono">X ~ 2 300 50 200 L 50 50 1 1 P</td></tr>
+<tr class="c-line"><td class="code-lc" id="L18"><a href="#L18">18</a></td><td class="code mono">ENDDRAW</td></tr>
+<tr class="c-line"><td class="code-lc" id="L19"><a href="#L19">19</a></td><td class="code mono">ENDDEF</td></tr>
+<tr class="c-line"><td class="code-lc" id="L20"><a href="#L20">20</a></td><td class="code mono">#</td></tr>
+<tr class="c-line"><td class="code-lc" id="L21"><a href="#L21">21</a></td><td class="code mono">#End Library</td></tr>
+<tr class="c-line"><td class="code-lc" id="L22"><a href="#L22">22</a></td><td class="code mono"></td></tr>
+</tbody>
+</table>
+
+<p class="right soft"><a href="/index.php/p/kicad-libs/source/file/master/components/antenna.lib"><img style="vertical-align: text-bottom;" src="http://projects.qi-hardware.com/media/idf/img/package-grey.png" alt="Archive" align="bottom" /></a> <a href="/index.php/p/kicad-libs/source/file/master/components/antenna.lib">Download this file</a></p>
+
+</div>
+	</div>
+      </div>
+    </div>
+    <div class="yui-b context">
+<p><strong>Branches:</strong><br/>
+
+
+<span class="label active"><a href="/index.php/p/kicad-libs/source/tree/master/" class="label">master</a></span><br/>
+
+</p>
+
+</div>
+  </div>
+  <div id="ft"></div>
+</div>
+<script type="text/javascript" src="http://projects.qi-hardware.com/media/idf/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="http://projects.qi-hardware.com/media/idf/js/jquery.hotkeys.js"></script>
+<script type="text/javascript" charset="utf-8">
+// <!--
+jQuery.hotkeys.add('Shift+h',{disableInInput: true},function (){window.location.href='/index.php/help/';});
+
+jQuery.hotkeys.add('Shift+u',{disableInInput: true},function (){window.location.href='/index.php/p/kicad-libs/timeline/';});
+jQuery.hotkeys.add('Shift+a',{disableInInput: true},function (){window.location.href='/index.php/p/kicad-libs/issues/create/';});
+jQuery.hotkeys.add('Shift+i',{disableInInput: true},function (){window.location.href='/index.php/p/kicad-libs/issues/';});
+jQuery.hotkeys.add('Shift+d',{disableInInput: true},function (){window.location.href='/index.php/p/kicad-libs/downloads/';});
+jQuery.hotkeys.add('Shift+o',{disableInInput: true},function (){window.location.href='/index.php/p/kicad-libs/doc/';});
+jQuery.hotkeys.add('Shift+s',{disableInInput: true},function (){window.location.href='/index.php/p/kicad-libs/source/tree/master/';});
+ //-->
+</script>
+
+
+
+<script type="text/javascript" src="http://projects.qi-hardware.com/media/idf/js/prettify.js"></script>
+<script type="text/javascript">prettyPrint();</script>
+
+
+<script type="text/javascript" charset="utf-8">
+//<![CDATA[
+$(document).ready(function(){
+	var frag = location.hash;
+	if ($('#preview').length) {
+		location.hash = '#preview';
+	}
+	else if (frag.length > 3 && frag.substring(0, 3) == '#ic') {
+		$(frag).addClass("issue-comment-focus");
+	}
+});
+//]]>
+</script>
+<br/><br/>
+
+<div id='catlinks'></div>
+<div class="visualClear"></div>
+
+</div> <!-- /bodyContent -->
+</div> <!-- /content -->
+
+<!-- panel -->
+<div id="mw-panel" class="noprint">
+	<div id="p-logo"><a style="background-image: url(http://en.qi-hardware.com/wiki-logo.png);" href="http://en.qi-hardware.com/wiki/Main_Page"  title="Visit the main page"></a></div>
+
+<!-- navigation -->
+<div class="portal" id='p-navigation'>
+	<div class="body">
+		<ul>
+		<li id="n-mainpage-description"><a href="http://en.qi-hardware.com/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+		<li id="n-currentevents"><a href="http://en.qi-hardware.com/wiki/Qi-Hardware:Current_events" title="Find background information on current events">Current events</a></li>
+		<li id="n-Mailing-lists"><a href="http://lists.en.qi-hardware.com/mailman/listinfo/">Mailing lists</a></li>
+		<li id="n-Planet"><a href="http://en.qi-hardware.com/planet/">Planet</a></li>
+		<li id="n-Projects-server"><a href="http://projects.qi-hardware.com/">Projects server</a></li>
+		</ul>
+	</div>
+</div> <!-- /navigation -->
+
+<!-- interactive -->
+<div class="portal" id='p-interactive'>
+	<h5>interactive</h5>
+
+	<div class="body">
+		<ul>
+		<li id="n-About-Qi"><a href="http://en.qi-hardware.com/wiki/Qi-Hardware:About">About Qi</a></li>
+		<li id="n-recentchanges"><a href="http://en.qi-hardware.com/wiki/Special:RecentChanges" title="The list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+		<li id="n-Contact-Qi"><a href="http://en.qi-hardware.com/wiki/Qi-Hardware:Contact_us">Contact Qi</a></li>
+		<li id="n-help"><a href="http://en.qi-hardware.com/wiki/Help:Contents" title="The place to find out">Help</a></li>
+		</ul>
+	</div>
+</div> <!-- /interactive -->
+
+</div> <!-- /panel -->
+
+<div id="footer">
+	<ul id="footer-info">
+	<li id="footer-info-copyright">All content is dual licensed under CC-BY-SA and GFDL; additional terms may apply. See <a href="http://en.qi-hardware.com/wiki/Qi-Hardware:Copyright">Copyright</a> for details.</li>
+	</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="http://en.qi-hardware.com/wiki/Qi-Hardware:Privacy_policy" title="Qi-Hardware:Privacy policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="http://en.qi-hardware.com/wiki/Qi-Hardware:About" title="Qi-Hardware:About">About Qi</a></li>
+	<li id="footer-places-disclaimer"><a href="http://en.qi-hardware.com/wiki/Qi-Hardware:General_disclaimer" title="Qi-Hardware:General disclaimer">Disclaimers</a></li>
+	</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-icon-copyright"><a href="http://en.qi-hardware.com/wiki/Qi-Hardware:Copyright"><img src="http://en.qi-hardware.com/cc-by-sa-88x31.png" alt="" width="88" height="31" /></a></li>
+	</ul>
+<div style="clear:both"></div>
+</div> <!-- /footer -->
+
+</body>
+</html>
