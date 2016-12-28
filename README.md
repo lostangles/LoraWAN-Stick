@@ -1,0 +1,2 @@
+# LoraWAN-Stick
+Initial commit
