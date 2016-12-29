@@ -49,10 +49,10 @@ D4	LED-POW	Diodes_SMD:D_0805
 R9	1k	Resistors_SMD:R_0603_HandSoldering	
 
 # TODO 
+
 Verify all functionality
-
 Verify pin header compatbility
-
 Add ICP for 32u4
-
 Verify software serial pins work correctly
+Add mounting holes on corners
+
