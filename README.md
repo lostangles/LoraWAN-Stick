@@ -16,6 +16,12 @@ The RN2903 is controlled by serial, but because the 32u4 has only a single UART,
 
 
 # Bill Of Materials
+https://github.com/lostangles/LoraWAN-Stick/blob/master/LoraWAN-Stick.xlsx
+
+Total cost: $52.52
+
+
+
 U3	RN2903-I/RM095	RN2903-I_RM095:XCVR_RN2903-I%2fRM095	Microchip
 U2	ATmega32U4-AU	Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm	
 U1	FGPMMOPA6H	FGPMMOPA6H:FGPMMOPA6H	
