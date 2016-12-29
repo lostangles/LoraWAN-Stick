@@ -66,3 +66,4 @@ Verify software serial pins work correctly
 
 Add mounting holes on corners
 
+Add external oscillator
