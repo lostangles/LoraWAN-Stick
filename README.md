@@ -8,6 +8,11 @@ https://oshpark.com/shared_projects/INShZUhB
 ![Alt text](PCB.png?raw=true "PCB")
 
 
+# Functionality
+I wanted to make a single PCB that had some GPIO, communication interfaces, a module to transmit LoraWAN packets, and a way to get current location.  The LoraWAN stack is offloaded from the 32u4 and rests in a PIC microcontroller inside the RN2903.  This allows a simple interface of simply passing the payload from the 32u4 to the RN2903 without having to worry about the LoraWAN stack inside your project.
+
+The LoraWAN-Stick incorporates the LiPo charging circuitry common to the Adafruit Feather line of dev boards, as well as follows the same pinout for attachment of Adafruit Featherwings.  Because both the RN2903 and GPS module use serial communications, serial communications with other nodes may be difficult; the GPS module uses the hardware UART, and communication to the RN2903 uses software serial.  From my experience, having multiple software serial interfaces tends to work in unexpected ways, and should probably be avoided without thorough testing.
+
 # Pins
 Pinout follows Adafruit Feather format as I wanted to be able to add compatability of Adafruit Featherwings to this project.
 The 32u4 only has a single hardware UART, hard wired to the TX/RX of the GPS module.  These pins are broken out on the header.
