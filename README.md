@@ -2,8 +2,7 @@
 PCB combining Atmega32u4, MTK3339 GPS module, and RN2903 LoraWAN module
 This is rev 0; changes will probably need to be made once I get PCBs in and test them
 
-OSHPark permalink: 
-https://oshpark.com/shared_projects/INShZUhB
+![Alt text](PCB.png?raw=true "PCB")
 
 <a href="https://oshpark.com/shared_projects/d93rjKRX"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
 
