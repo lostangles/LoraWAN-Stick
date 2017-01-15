@@ -1,4 +1,4 @@
-update=12/27/2016 12:28:39 PM
+update=1/9/2017 9:33:29 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -69,3 +69,13 @@ LibName37=library/adafruit.lib/adafruit
 LibName38=library/misc/open-project
 LibName39=library/misc/RFM95W-868S2
 LibName40=library/misc/tinkerforge
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
