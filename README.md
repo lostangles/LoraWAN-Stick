@@ -1,6 +1,6 @@
 # LoraWAN-Stick
-PCB combining Atmega32u4, MTK3339 GPS module, and RN2903 LoraWAN module
-This is rev 0; changes will probably need to be made once I get PCBs in and test them
+PCB combining Atmega32u4, MTK3339 GPS module, and RN2903 LoraWAN module.
+
 
 ![Alt text](PCB.png?raw=true "PCB")
 
