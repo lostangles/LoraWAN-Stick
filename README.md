@@ -18,6 +18,14 @@ The 32u4 only has a single hardware UART, hard wired to the TX/RX of the GPS mod
 
 The RN2903 is controlled by serial, but because the 32u4 has only a single UART, a software serial interface must be used.  The RN2903 is hardwired with its RX on pin 5 and TX on pin 10.  Reset for the RN2903 is hard wired to pin 6 and should be pulled high when not in reset state.  The RN2903 Pickit3 programming header is also broken out to update the firmware on the RN2903 directly.
 
+#uC Info
+The 32u4-AU microcontroller that I used here comes preconfigured to use the internal oscillator, thus the C7, C8, and XTAL pads can be left empty.  When configuring the microcontroller for the first time, it will not show up as a USB device until the bootloader has been flashed to it via ISP.  Once the bootloader has been flashed, it should show up as an Adafruit Feather 32u4 under Device Manager, and can be programmed/configured in the same manner as any of the Adafruit 32u4 Feathers.
+
+#Fuse Settings
+The bootloader included configures the 32u4 in 8 MHz in the same configuration as the Adafruit 32u4 Feathers.
+The uC can be configured to run with an internal oscillator or an external oscillator.  If you use the 32u4-AU variant, the built in oscillator can be used in lieu of an external oscillator.  The fuse settings to configure the uC as such would be something like:
+
+avrdude -c dragon_isp -p m32u4 -U lfuse:w:0xe2:m -U hfuse:w:0xd8:m -U efuse:w:0xfb:m -U flash:w:Caterina-Feather32u4.hex -v
 
 # Bill Of Materials
 https://github.com/lostangles/LoraWAN-Stick/blob/master/LoraWAN-Stick.xlsx
