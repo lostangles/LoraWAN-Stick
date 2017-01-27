@@ -21,6 +21,15 @@ The RN2903 is controlled by serial, but because the 32u4 has only a single UART,
 #uC Info
 The 32u4-AU microcontroller that I used here comes preconfigured to use the internal oscillator, thus the C7, C8, and XTAL pads can be left empty.  When configuring the microcontroller for the first time, it will not show up as a USB device until the bootloader has been flashed to it via ISP.  Once the bootloader has been flashed, it should show up as an Adafruit Feather 32u4 under Device Manager, and can be programmed/configured in the same manner as any of the Adafruit 32u4 Feathers.
 
+#Radio Interface
+The RN2903 by default communicates on 56000 baud.  The SoftwareSerial library is more reliable at slower speeds; to set the baudrate in the RN2903, you must send a low signal on the TX line for at least two character lengths, followed by 0x55 at the new baudrate requested.  Using the Arduino libraries, this might look like:
+
+digitalWrite(10, LOW);
+delay(500);
+digitalWrite(10, HIGH);
+rn2903.begin(9600);
+rn2903.write(0x55);
+
 #Fuse Settings
 The bootloader included configures the 32u4 in 8 MHz in the same configuration as the Adafruit 32u4 Feathers.
 The uC can be configured to run with an internal oscillator or an external oscillator.  If you use the 32u4-AU variant, the built in oscillator can be used in lieu of an external oscillator.  The fuse settings to configure the uC as such would be something like:
