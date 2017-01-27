@@ -79,12 +79,6 @@ R9	1k	Resistors_SMD:R_0603_HandSoldering
 
 # TODO 
 
-Verify all functionality
-
-Verify pin header compatbility
-
 Add ICP header for 32u4
-
-Verify software serial pins work correctly
 
 
