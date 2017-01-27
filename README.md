@@ -36,7 +36,7 @@ rn2903.write(0x55);
 The bootloader included configures the 32u4 in 8 MHz in the same configuration as the Adafruit 32u4 Feathers.
 The uC can be configured to run with an internal oscillator or an external oscillator.  If you use the 32u4-AU variant, the built in oscillator can be used in lieu of an external oscillator.  The fuse settings to configure the uC as such would be something like:
 
-avrdude -c dragon_isp -p m32u4 -U lfuse:w:0xe2:m -U hfuse:w:0xd8:m -U efuse:w:0xfb:m -U flash:w:Caterina-Feather32u4.hex -v
+`avrdude -c dragon_isp -p m32u4 -U lfuse:w:0xe2:m -U hfuse:w:0xd8:m -U efuse:w:0xfb:m -U flash:w:Caterina-Feather32u4.hex -v`
 
 # Bill Of Materials
 https://github.com/lostangles/LoraWAN-Stick/blob/master/LoraWAN-Stick.xlsx
